@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Plant information</title>
+		<link rel="stylesheet" type="text/css" href="homepage.css">
+		<link rel="stylesheet" type="text/css" href="MatchingGame.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+	</head>
+	<body>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<div class="dropdown">
+				<button class="dropbtn">Plant care
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					
+					<a href="sunflowerpage.html">Sunflower</a>
+					<a href="fernpage.html">Fern</a>
+					<a href="cactuspage.html">Cactus</a>
+			</div>
+			</div>
+			
+			<li><a href="Signup.html">Sign up</a></li>
+		</ul>
+
+		<section class="showcase">
+			<video autoplay muted loop id="myVideo">
+				<source src="natureVideo.mp4" type="video/mp4">
+			</video>
+			
+			<div class="overlay"></div>
+
+			<div class="Ptext">
+				<h2>Learn about the beings<br>that give us life.</h2>
+				<p>Plants are the things keeping us alive. Humans consume around 50 liters of oxygen per hour and each plant leaf gives off about five milliliters of oxygen per hour, so not only do they look good they are alot more useful than youd think! Sign up now for weekly plant mail!</p>
+				<a href="Signup.html">Sign up</a>
+			</div>
+			<div></div>
+		
+		</section>
+		
+		<div class="secondPart">
+				<h1>Incredible plant facts you didn't know!</h1>
+				<div class="factRow">
+					<div class="box fact1">
+					<h2>The earth has more than 80,000 species of edible plants.</h2>
+					<p>If you’re ever in the mood to try something new, the good news is that there is certainly food you haven’t tasted yet still growing somewhere in the world.You’ll probably have some trouble finding it, however, because …</p>
+				</div>
+				<div class="box fact2">
+					<h2>90 percent of the foods humans eat come from just 30 plants.</h2>
+
+					<p>Out of tens of thousands of plants we could eat, mankind chooses to consume only about 30 of them. It’s crazy to contemplate how limited our diets are compared to all of the different foods we could be eating. If you think the selection of which plants we eat has anything to do with their nutritional benefits, however, you’d be wrong …</p>
+				</div>
+				<div class="box fact3">
+					<h2>80 percent of the Earth's original forests have been cleared or destroyed.</h2>
+
+					<p>The same forests that dominated the land 8,000 years ago are all but gone. Approximately four-fifths of the forests are gone thanks to human intervention—just think of how many plant species may have been lost in that process.</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	<div class="thirdPart">
+
+			<div class="gameText">
+				<h1>A plant matching game!</h1>
+				<h2 id="gameStatus">Click on any card to begin.</h2>
+			</div>
+			
+			<div class="scoreBoard">
+				<p class="score">Moves: </p>
+				<p class = "score" id="moves">0</p>
+			</div>
+
+		<div class="matchingGame">
+
+			
+		
+			
+			<div class="game-field">
+				<div class="row">
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>
+					</div>
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>	
+					</div>
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>
+					 </div>
+					<div
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>	
+				    </div>
+				</div>
+				<div class="row">
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>	
+					</div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>
+					</div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'></div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>
+					</div>
+				</div>
+				<div class="row">
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>	
+					</div>
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>	
+					 </div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>
+					</div>
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>
+					 </div>
+				</div>
+				<div class="row">
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>	
+					</div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>
+					</div>
+					<div
+					 	class="card hidden" 
+					 	onclick = 'onCardClicked(event)'>
+					</div>
+					<div 
+						class="card hidden" 
+						onclick = 'onCardClicked(event)'>
+					</div>
+				</div>
+				<button class="button" onclick='restartEvent()'>Restart!</button>
+			<script src = "matchingGame.js"></script>
+		</div>
+	</div>
+	<div class="footer">
+		@FHICT VIONA BODLAENDER
+	</div>
+		
+
+	</body>
+
+</html>
+

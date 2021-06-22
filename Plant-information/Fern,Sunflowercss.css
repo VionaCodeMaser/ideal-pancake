@@ -1,0 +1,195 @@
+.fernintro{
+	background-image: url(Images/fernbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.ferntext{
+	left: 30%;
+	top: 10%;
+	width: 60%;
+	position: relative;
+	text-align: right;
+	
+}
+.ferntext h1{
+	
+	color: #000A00;
+	padding-bottom: 10px;
+}
+
+.ferntext h2{
+	color:#000A00;
+	left: 5%;
+	font-weight: 400;
+}
+.ferntext h3{
+	color:#000A00;
+	left: 5%;
+	font-size: 30px;
+	font-weight: 200;
+	margin-top: 90px;
+}
+
+.sunflowerintro{
+	background-image: url(Images/sunflowerbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.sunflowertext{
+	left: 30%;
+	top: 10%;
+	width: 60%;
+	position: relative;
+	text-align: right;
+	
+}
+.sunflowertext h1{
+	
+	color: #fffad4;
+	padding-bottom: 10px;
+}
+
+.sunflowertext h2{
+	color:#fffad4;
+	left: 5%;
+	font-weight: 400;
+}
+.sunflowertext h3{
+	color:#fffad4;
+	left: 5%;
+	font-size: 30px;
+	font-weight: 200;
+	margin-top: 90px;
+}
+
+.box-text h3{
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+
+}
+
+.single-box{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: auto;
+	border-radius: 4px;
+	background-color: #f5dd29;
+	text-align: center;
+	margin: 80px;
+	padding: 30px;
+	transition: .3s;
+	box-shadow: 10px 15px #f2d600;
+}
+
+.box-image{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.single-box:hover{
+	background: #f2d600; 
+	box-shadow: 10px 15px #e6c60d;
+}
+
+.sunflower1{
+	background-image: url(Images/sunflowerGallery/sunflower1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.sunflower2{
+	background-image: url(Images/sunflowerGallery/sunflower2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.sunflower3{
+	background-image: url(Images/sunflowerGallery/sunflower3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.sunflower4{
+	background-image: url(Images/sunflowerGallery/sunflower4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.sunflower5{
+	background-image: url(Images/sunflowerGallery/sunflower5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.sunflower6{
+	background-image: url(Images/sunflowerGallery/sunflower6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.fern1{
+	background-image: url(Images/fernGallery/fern1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.fern2{
+	background-image: url(Images/fernGallery/fern2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.fern3{
+	background-image: url(Images/fernGallery/fern3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.fern4{
+	background-image: url(Images/fernGallery/fern4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.fern5{
+	background-image: url(Images/fernGallery/fern5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.fern6{
+	background-image: url(Images/fernGallery/fern6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

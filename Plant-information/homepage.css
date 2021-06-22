@@ -1,0 +1,526 @@
+body, html{
+	margin: 0;
+	/*width: 100vw; removed to get the side scroler gone*/
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.potimage {
+
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+	background-color: white;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+ul a {
+	display: block;
+	padding:8px;
+	color: black;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	background-color: white;
+}
+
+li a:hover{
+	background-color: #495424;
+	color: #EFE9D5;
+
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+
+	z-index: 99;
+}
+
+.dropdown .dropbtn {
+	border: none;
+	font-size: 16px;
+	outline: none;
+	color: black;
+	padding: 14px 15px;
+	background: inherit;
+	font-family: inherit;
+	margin: 0;
+
+	z-index: 99;
+}
+.dropdown:hover .dropbtn{
+	background-color: #495424;
+	color: #EFE9D5;
+	z-index: 99;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 1s;
+  z-index: 99;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 99;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #EFE9D5;
+	color: 495424;
+  z-index: 99;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 1s;
+}
+
+
+
+.imagetext {
+	top: 30%;
+	text-align: right;
+	padding: 40px;
+	padding-top: 70px;
+	color: #E6DF97;
+
+}
+
+
+.signupimage{
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url("Images/signup.jpg");
+	background-size: cover;
+	height: 200px;
+}
+
+
+.split{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.signupimage, .signupform {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signupimage .copy{
+	color: white;
+	text-align: center;
+
+}
+
+.signupform .copy{
+	color: black;
+	text-align: center;
+	font-size: 45px
+}
+.signupform .copy h2{
+	font-weight: 400;
+}
+
+.signupform form {
+	width: 50%;
+}
+
+.input-container{
+	font-size: 30px;
+}
+
+.signup-btn {
+	background-color: #EFA37F;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 70px;
+	border:none;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+
+form input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+
+}
+
+.signupimage .copy h1{
+	font-size: 80px;
+	margin-bottom: 30px;
+	font-weight: 500;
+
+}
+
+.signupimage .copy h2{
+	font-size: 30px;
+	font-weight: 300
+}
+
+.signuphome{
+	font-family: 'Montserrat', sans-serif;
+	background-color: 	#F1ACAF;
+	border: none;
+	font-weight: 700;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+
+
+}
+
+
+
+.cactusintro{
+	background-image: url(Images/cactusbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.cactustext{
+	left: 4%;
+	top: 10%;
+	width: 60%;
+	position: relative;
+	
+}
+.cactustext h1{
+	left: 6%;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.cactustext h2{
+	color:white;
+	left: 5%;
+	font-weight: 400;
+}
+.cactustext h3{
+	color:white;
+	left: 5%;
+	font-size: 30px;
+	font-weight: 200;
+	margin-top: 90px;
+}
+
+.box-text h3{
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+
+}
+
+.single-box{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: auto;
+	border-radius: 4px;
+	background-color: #94b447;
+	text-align: center;
+	margin: 80px;
+	padding: 30px;
+	transition: .3s;
+	box-shadow: 10px 15px #829e3f;
+}
+
+.box-image{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.single-box:hover{
+	background: #829e3f; 
+	box-shadow: 10px 15px #5d6e1e;
+}
+
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 300px 300px;
+	max-width: 1000px;
+	margin: 50px auto;
+}
+.imagebox {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	
+}
+
+.imagebox:hover{
+
+	transform: scale(1.5);
+	transition: 1s;
+
+}
+
+.cactus1{
+	background-image: url(Images/cactusGallery/cactus1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cactus2{
+	background-image: url(Images/cactusGallery/cactus2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cactus3{
+	background-image: url(Images/cactusGallery/cactus3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.cactus4{
+	background-image: url(Images/cactusGallery/cactus4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cactus5{
+	background-image: url(Images/cactusGallery/cactus5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cactus6{
+	background-image: url(Images/cactusGallery/cactus6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container-text{
+	margin-top: 200px;
+	margin-bottom: 100px;
+	text-align: center;
+
+}
+
+/**{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}*/
+
+.showcase{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 0;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+	background: #111;
+	color: #EFE9D5;
+	z-index: 2;
+}
+
+.showcase video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -999;
+	object-fit: cover;
+	opacity: 0.5;
+}
+
+.Ptext{
+	position: relative;
+	z-index: 3;
+}
+
+.Ptext h2{
+	font-size: 5em;
+	font-weight: 800;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.Ptext p{
+	display: block;
+	font-size: 1.1em;
+	font-weight: 400;
+	word-spacing: 5px;
+	line-height: 1em;
+	line-height: 28px;
+	max-width: 1000px;
+}
+
+.Ptext a{
+	display: inline-block;
+	font-size: 1em;
+	background: #EFE9D5;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #4E4946;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	transition: 0.2s;
+
+}
+
+.Ptext a:hover{
+	letter-spacing: 6px;
+}
+
+.secondPart{
+	display: block;
+	width: 100%;
+	z-index: 999;
+}
+
+.facts p{
+	font-weight: 400;
+	font-size: 2;
+	margin: 100px;
+}
+
+.facts h2{
+	font-weight: 400;
+	font-size: 2;
+	margin: 100px;
+}
+.facts h1{
+	margin-top: 30px;
+	margin: 20px;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.matchingGame{
+	margin: 20px;
+	margin-bottom: 200px;
+
+}
+
+.footer {  
+	left: 0px;  
+	bottom: 0px;  
+	right: 0px;   
+	width: 100%; 
+	height: 40px; 
+	background-color: gray;  
+	color: white;  
+	padding-top: 10px;
+	text-align: center;  
+	overflow: hidden;
+}  
+
+.secondPart{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+.box h2{
+	font-weight: 800;
+	font-size: 2em;
+}
+
+.box p{
+	color: #777;
+	font-size: 1.5;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.factRow{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box{
+	flex-basis: 31%;
+	background-color: #EFE9D5;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+
+.thirdPart{
+	margin-top: 150px;
+	background-color: #4E4946;
+	margin-bottom: 0;
+}
+
